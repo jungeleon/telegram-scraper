@@ -7,7 +7,7 @@ BOT_TOKEN = os.environ["7549886594:AAE5XnkoYuQVqopELJekyGGgLheDMNuJilY"]
 NOTIFY_CHAT_ID = os.environ["7115694132"]
 
 # Liste der Schlüsselwörter für Filter
-KEYWORDS = ["dringend", "alarm", "kritisch", "wichtig"]
+KEYWORDS = ["Wipkingen", "8037", "8057", "8005", "Kreis 10", "Kreis 6", "Kreis 5", "K10", "K6", "K5"]
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if update.message and update.message.text:
