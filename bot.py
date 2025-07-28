@@ -3,8 +3,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
 
 # Hole Token und Ziel-Chat-ID aus Umgebungsvariablen
-BOT_TOKEN = os.environ[7549886594:AAE5XnkoYuQVqopELJekyGGgLheDMNuJilY]
-NOTIFY_CHAT_ID = os.environ["NOTIFY_CHAT_ID"]
+BOT_TOKEN = os.environ["7549886594:AAE5XnkoYuQVqopELJekyGGgLheDMNuJilY"]
+NOTIFY_CHAT_ID = os.environ["7115694132"]
 
 # Liste der Schlüsselwörter für Filter
 KEYWORDS = ["dringend", "alarm", "kritisch", "wichtig"]
